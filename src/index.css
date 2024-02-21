@@ -1,0 +1,113 @@
+body{
+    background-image: repeating-linear-gradient(282deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),repeating-linear-gradient(176deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),repeating-linear-gradient(314deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),linear-gradient(90deg, rgb(37,37,37),rgb(37,37,37));
+    background-attachment: fixed;
+  }
+  .card{
+    transition: 0.4s;
+  }
+  .card img{
+    border-bottom: 1px solid gray;
+  }
+  .card:hover{
+    box-shadow: 2px 3px 20px rgb(197, 196, 196);
+  }
+  .addToCart{
+    color: white;
+  }
+  .addToCart img{
+    margin-top: 6px;
+    outline: 1px solid white;
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #000000;
+  }
+  .productCard{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  
+    /* margin: 10px; */
+  }
+
+  .quantity-box{
+    width: fit-content;
+  }
+  .quantity-box button{
+    font-weight: 800;
+  }
+  .removeCart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: rgb(255, 72, 0);
+  }
+  .removeCart p {
+    border-radius: 50px;
+    padding: 1px 5px 5px 5px;
+    cursor: pointer;
+    transition:  .4s;
+    box-shadow: 0 0 10px rgb(85, 255, 47);
+    color: rgb(85, 255, 47);
+  }
+  .removeCart p:hover{
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    color: red;
+  }
+  
+   .subTotal, .shipping, .total, .quantity, .totalQuantity{
+    display: flex;
+    justify-content: space-between;  
+  }
+  
+  .cart-content{
+    color: white;
+    height: 150px;
+    overflow-y: scroll;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    box-shadow:  1px 1px 20px rgb(0, 0, 0), inset -5px -5px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  .cart-content::-webkit-scrollbar, .text-content::-webkit-scrollbar{
+    width: 0;
+  }
+  body::-webkit-scrollbar{
+    width: 0;
+  }
+  
+  
+  .arrow{
+    display: flex;
+    justify-content: end;
+    position: relative;
+  }
+  .Down{
+    position: sticky;
+    bottom: 5px;
+    right: 0;
+  }
+  .Top{
+    position: sticky;
+    top: 5px; 
+  }
+  .Top span{
+    transition: 0.7s;
+    transform: rotate(180deg);
+    padding: 2px 6px;
+    border-radius: 50%;
+    color: black;
+  }
+  .Down span{
+    transition: 0.7s;
+    color: rgb(2, 2, 2);
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+  .Down span:hover, .Top span:hover{
+    background-color: black;
+    color: white;
+  }

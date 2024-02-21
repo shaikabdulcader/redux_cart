@@ -1,7 +1,7 @@
 body{
-/*     background-image: repeating-linear-gradient(282deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),repeating-linear-gradient(176deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),repeating-linear-gradient(314deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),linear-gradient(90deg, rgb(37,37,37),rgb(37,37,37));
-    background-attachment: fixed; */
-  }
+    background-image: repeating-linear-gradient(282deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),repeating-linear-gradient(176deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),repeating-linear-gradient(314deg, hsla(264,0%,51%,0.12) 0px,transparent 7px,hsla(264,0%,51%,0.12) 12px,transparent 19px,hsla(264,0%,51%,0.12) 24px,transparent 31px,hsla(264,0%,51%,0.12) 36px),linear-gradient(90deg, rgb(37,37,37),rgb(37,37,37));
+    background-attachment: fixed; 
+  } 
   .card{
     transition: 0.4s;
   }
